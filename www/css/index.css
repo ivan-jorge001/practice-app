@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
   box-sizing: border-box;
@@ -74,7 +73,7 @@ button {
   border-radius: 20px;
 }
 
-.characterinfo div span {
+.character-info div span {
   color: #d8b362;
   position: absolute;
   left: 50%;
@@ -105,12 +104,4 @@ button {
 
 #send-data {
   margin: 10px 0 0 120px;
-}
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    .app {
-        background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
-    }
 }
